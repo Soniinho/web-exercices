@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>C Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Basic_Syntax">Basic Syntax</a></li>
+          <li><a class="nav-link" href="#Variables_and_Types">Variables and Types</a></li>
+          <li><a class="nav-link" href="#Control_Structures">Control Structures</a></li>
+          <li><a class="nav-link" href="#Functions">Functions</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <article>
+          <p>
+            C is a general-purpose programming language developed by Dennis
+            Ritchie in the early 1970s. It is widely used for its performance and
+            low-level access to memory and hardware, making it ideal for system
+            programming and embedded systems.
+          </p>
+          <p>
+            C is considered a low-level language, which provides fine-grained
+            control over system resources. Many modern languages such as C++,
+            Java, and C# were heavily influenced by C. Despite its age, C remains
+            highly relevant in today's software development landscape.
+          </p>
+        </article>
+      </section>
+
+      <section id="Basic_Syntax" class="main-section">
+        <header>Basic Syntax</header>
+        <article>
+          <p>The classic first C program is the "Hello, World!" example:</p>
+          <code>#include &lt;stdio.h&gt;
+            
+            int main() {
+            &nbsp;printf("Hello, World!\n");
+            &nbsp;return 0;
+          }
+          </code>
+          <p>
+            This program includes the standard input/output library and defines
+            the main function. Every statement in C ends with a semicolon (;).
+            Code blocks are enclosed in curly braces {}. Single-line comments use
+            //, and multi-line comments use /* ... */. Indentation is not required
+            but is recommended for readability.
+          </p>
+        </article>
+      </section>
+
+      <section id="Variables_and_Types" class="main-section">
+        <header>Variables and Types</header>
+        <article>
+          <p>
+            In C, you must declare a variable's type before using it. Common
+            primitive types include:
+          </p>
+          <ul>
+            <li>int for integers</li>
+            <li>float for floating-point numbers</li>
+            <li>char for single characters</li>
+            <li>double for double-precision floating-point numbers</li>
+          </ul>
+          <code> int age = 30;
+            float height = 1.75; 
+            char grade = 'A';</code>
+          <p>
+            Variables can be modified during program execution. You can declare
+            constants using the const keyword. C also supports pointers, which
+            store memory addresses.
+          </p>
+        </article>
+      </section>
+
+      <section id="Control_Structures" class="main-section">
+        <header>Control Structures</header>
+        <article>
+          <p>
+            C includes control structures such as if, else, while, for, and
+            switch. Example using if:
+          </p>
+          <code>int x = 10;
+  
+            if (x > 5) {
+              &nbsp;printf("Greater than five\n"); 
+            } else {
+              &nbsp;printf("Five or less\n");
+            }
+          </code>
+          <p>Loops are used for repeating blocks of code:</p>
+          <code> for (int i = 0; i < 5; i++) {
+            &nbsp;printf("%d\n", i); 
+            }
+          </code>
+          <ul>
+            <li>The break statement exits a loop early.</li>
+            <li>The continue statement skips to the next iteration.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="Functions" class="main-section">
+        <header>Functions</header>
+        <article>
+          <p>Functions help organize code and avoid repetition.</p>
+          <code> int add(int a, int b) {
+            &nbsp;return a + b;
+            }
+          </code>
+          <p>
+            The above code defines a function named add that returns the sum of
+            two integers. The main() function is the entry point of any C program.
+            Parameters can be passed by value or by reference using pointers. It's
+            good practice to declare function prototypes before main.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

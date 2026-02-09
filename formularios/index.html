@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Formulários HTML</h2>
+    <!--form de formulário-->
+    <form action="/action_page.php">
+        <label for="fname">Primeiro nome:</label><br>
+        <!--rótulo para um elemento-->
+        <!--for é o valor do label-->
+        <input type="text" id="fname" name="fname" value=""><br>
+        <!--name -> variável q será relacionada na pág php-->
+        <!--value -> nd ou omitir em type="text"-->
+        <label for="lname">Último Nome:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Enviar">
+        <!--submit -> botão de envio-->
+        <!--for == id-->
+    </form>
+
+    <p>Se você clicar no botão "Enviar", os dados do formulário serão enviar para a página "/action_page.php". </p>
+
+    <!-- <imput type="">
+                type="text" -> campo de entrada de texto de linha única
+                type="radio" -> botão de opc (1 de várias)
+                type="checkbox" -> caixa de seleção (0 ou mais de uma)
+                type="submit" -> botão de envio
+                type="button" -> botão
+    -->
+
+    <!-- a propriedade name deve ser igual para limitar a seleção de botões-->
+    <!-- atrib name é cm definir variável-->
+    
+    <!-- no <form>
+        target -> fala se abre na msm janela ou outra aba
+        method -> get é o padrão (mostra no url, n confidencial, tem limitação de tamanho), post oculta no url
+        autocomplete -> on ou off
+    -->
+
+    <!-- elementos do form
+        <select> -> lista suspensa /caixa V/ 
+        at-> size é o n° de opc visíveis, multiple -> mais de 1 valor selecionável (segurar ctrl ou shift)
+            <option> é usado nele
+            at -> selected vira o primeiro da lista
+        <textarea> -> caixa de texto de varias linhas, pd CSS
+        at -> row e cols
+        <button type="button" onclick="alert('Oi')"> JavaScript
+        <fieldset> -> agrupa dados relacionados
+        <legend> -> título do agrupamento    
+        
+        <datalist> -> lista suspensa de opc de um input (lembra div, usa option) (list[input] e o id[datalist] devem ser iguais)
+    -->
+
+    <!-- tipos de entrada (pro type)
+        padrão do type é "text"
+        password (de senha)
+        reset (reseta)
+        color (aparece cor, tipo aseprite)
+        date (ngc de data com calendário)
+        datetime-local (data e hora sem fuso horário)
+        email (validado de forma automática, *ver dps)
+        file (arquivo)
+        hidden
+        month
+        number (at -> min e max ...)
+        ...
+    -->
+
+    <!-- att
+        value -> valor inicial
+        readonly -> ta escrito no nome
+        disabled
+        size -> visível
+        maxlength -> trava o tamanho
+        min e max
+        pattern
+        placeholder -> sugestão
+        required (*)
+        step -> de qnt em qnt
+        autofocus -> recebe o foco (piscando cursor)
+        ...
+    -->
+
+    <!-- att do form
+        da pra por no msm form msm sem estar dentro do </form> por o (msm id)
+        formacction -> outro botão de comando para enviar para outra página
+        formenctype -> outra codf (subst o enctype no form)
+    -->
+
+</body>
+
+</html>

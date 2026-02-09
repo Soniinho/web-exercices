@@ -1,0 +1,116 @@
+Navigation (to place in #navbar)
+
+    Introduction
+
+    Basic Syntax
+
+    Variables and Types
+
+    Control Structures
+
+    Functions
+
+Main Content (to place inside the #main-doc with id="main-doc")
+Introduction (id="Introduction")
+
+C is a general-purpose programming language developed by Dennis Ritchie in the early 1970s.
+
+It is widely used for its performance and low-level access to memory and hardware, making it ideal for system programming and embedded systems.
+
+C is considered a low-level language, which provides fine-grained control over system resources.
+
+Many modern languages such as C++, Java, and C# were heavily influenced by C.
+
+Despite its age, C remains highly relevant in today's software development landscape.
+Basic Syntax (id="Basic_Syntax")
+
+The classic first C program is the "Hello, World!" example:
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+This program includes the standard input/output library and defines the main function.
+
+Every statement in C ends with a semicolon (;).
+
+Code blocks are enclosed in curly braces {}.
+
+Single-line comments use //, and multi-line comments use /* ... */.
+
+Indentation is not required but is recommended for readability.
+Variables and Types (id="Variables_and_Types")
+
+In C, you must declare a variable's type before using it.
+
+Common primitive types include:
+
+    int for integers
+
+    float for floating-point numbers
+
+    char for single characters
+
+    double for double-precision floating-point numbers
+
+int age = 30;
+float height = 1.75;
+char grade = 'A';
+
+Variables can be modified during program execution.
+
+You can declare constants using the const keyword.
+
+C also supports pointers, which store memory addresses.
+Control Structures (id="Control_Structures")
+
+C includes control structures such as if, else, while, for, and switch.
+
+Example using if:
+
+int x = 10;
+
+if (x > 5) {
+    printf("Greater than five\n");
+} else {
+    printf("Five or less\n");
+}
+
+Loops are used for repeating blocks of code:
+
+for (int i = 0; i < 5; i++) {
+    printf("%d\n", i);
+}
+
+The break statement exits a loop early.
+
+The continue statement skips to the next iteration.
+Functions (id="Functions")
+
+Functions help organize code and avoid repetition.
+
+int add(int a, int b) {
+    return a + b;
+}
+
+The above code defines a function named add that returns the sum of two integers.
+
+The main() function is the entry point of any C program.
+
+Parameters can be passed by value or by reference using pointers.
+
+It's good practice to declare function prototypes before main.
+Example list items:
+
+    if, else, and switch are decision-making statements.
+
+    for, while, and do...while are loops.
+
+    int, float, and char are primitive data types.
+
+    #include is used to include standard libraries.
+
+    return ends a function and returns a value.

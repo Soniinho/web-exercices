@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-image: linear-gradient(
+    hsl(240, 92%, 77%, 0.6),
+    hsla(240, 92%, 50%, 0.6)
+  );
+}
+
+th {
+  padding: 0.4em;
+}
+
+td {
+  text-align: center;
+  padding: 0.3em;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(
+    hsl(110, 100%, 85%, 0.6),
+    hsl(110, 100%, 65%, 0.6)
+  );
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(
+    hsla(65, 100%, 85%, 0.6),
+    hsl(65, 100%, 65%, 0.6)
+  );
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(
+    hsla(184, 100%, 85%, 0.6),
+    hsla(184, 100%, 65%, 0.6)
+  );
+}
+
+span {
+  display: inline-block;
+}
+
+span[class="status"] {
+  border-radius: 20%/60%;
+}
+
+span[class="status"],
+span[class^="rate"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 0.1em solid hsl(2, 100%, 45%);
+  background-image: linear-gradient(hsl(2, 100%, 75%), hsl(2, 100%, 55%));
+}
+
+tr[class="read"] span[class="status"] {
+  border: 0.1em solid hsl(100, 75%, 45%);
+  background-image: linear-gradient(hsl(100, 75%, 75%), hsl(100, 75%, 50%));
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 0.1em solid hsl(34, 90%, 40%);
+  background-image: linear-gradient(hsl(34, 90%, 75%), hsl(34, 90%, 50%));
+}
+
+span[class^="rate"] > span {
+  border: 0.1em solid hsl(0, 0%, 50%);
+  border-radius: 50%;
+  background-color: hsl(0, 15%, 95%);
+  height: 100%;
+  width: 20%;
+  margin: 0.1em;
+}
+
+span[class~="three"] span {
+  background-image: linear-gradient(hsl(61, 100%, 70%), hsl(61, 100%, 50%));
+}
+
+span[class~="two"] :nth-child(1),
+span[class~="two"] :nth-child(2) {
+  background-image: linear-gradient(hsl(61, 100%, 70%), hsl(61, 100%, 50%));
+}
+
+span[class~="one"] :first-child {
+  background-image: linear-gradient(hsl(61, 100%, 70%), hsl(61, 100%, 50%));
+}

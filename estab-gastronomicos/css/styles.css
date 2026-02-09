@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+/*Fontes Google*/
+
+/* background-image: url('../img/piracicaba.jpg'); */
+.logo button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    float: left;
+    font-size: 18px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+}
+
+.logo button:hover {
+    background-color: rgb(18, 0, 179);
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.logo a:not(:last-child) button {
+    border-right: none;
+}
+
+.logo:after,
+.last:before,
+.imagens2:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+h2 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 27px;
+}
+
+.fim button {
+    background-color: rgb(98, 0, 255);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    float: right;
+    font-size: 18px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imagens {
+    display: block;
+    text-align: center;
+}
+
+.imagens figure {
+    display: inline-block;
+    margin: 5px 10px 20px 10px;
+    /*sentido horário, começa em cima*/
+    overflow: hidden;
+    position: initial;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.imagens img,
+.imagens2 img {
+    max-width: 408px;
+    max-height: 306px;
+    width: auto;
+    height: auto;
+}
+
+.imagens figcaption,
+.imagens2 figcaption {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.imagens2 figure {
+    margin: 35px 10px 20px 30px;
+    /*sentido horário, começa em cima*/
+    overflow: hidden;
+    position: initial;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.imagens2 {
+    float: left;
+}
+
+.imagens2 p, li{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1.5px black solid;
+    border-spacing: 3px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 3px;
+    text-align: left;
+    width: 30%;
+    height: 50%;
+}
+
+th {
+    font-size: 22px;
+    text-align: center;
+}
+
+table {
+    float: left;
+}
+
+caption {
+    margin-top: 28px;
+}
+
+.menu_bares td:nth-child(2) {
+    text-align: center;
+}
+
+.menu_piz table{
+    width: 60%;
+}
+
+.menu_piz td:nth-child(4),
+.menu_piz td:nth-child(1) {
+    text-align: center;
+}
+
+.menu_piz td:nth-child(3) {
+    font-size: 14px;
+}

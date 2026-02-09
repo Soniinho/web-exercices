@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    
+    <h1>Formulário Simples</h1>
+
+    <form method="POST">
+        <fieldset>
+            <div style="display: block; float: left;margin-right: 20px;">
+                <label for="pnome"><strong>Nome</strong></label><br>
+                <input type="text" id="pnome" name="pnome" value="" placeholder="Pedro" required>
+            </div>
+
+            <div>
+                <label for="fnome"><strong>Sobrenome</strong></label><br>
+                <input type="text" id="fnome" name="fnome" placeholder="Silva" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div style="display: block; float: left;margin-right: 20px;">
+                <label for="email"><strong>Email</strong></label><br>
+                <input type="email" name="email" id="email" placeholder="pedrosilva@bmail.com" required>
+            </div>
+            <div>
+                <label for="cel"><strong>Número de Contato</strong></label><br>
+                <input type="tel" id="cel" name="cel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" maxlength="11"
+                    placeholder="(19)11122-1111">
+            </div>
+            <hr>
+
+            <label><strong>Prência de Alimento</strong></label><br>
+            <input type="radio" name="comida" id="comida" value="frutas">
+            <label for="comida">Frutas</label><br>
+
+            <input type="radio" name="comida" id="comida" value="verduras">
+            <label for="comida">Verduras</label><br>
+
+            <input type="radio" name="comida" id="comida" value="carnes_vermelhas">
+            <label for="comida">Carnes Vemelhas</label><br>
+
+            <input type="radio" name="comida" id="comida" value="carnes_brancas">
+            <label for="comida">Carnes Brancas</label><br>
+
+            <input type="radio" name="comida" id="comida" value="coces">
+            <label for="comida">Doces</label><br>
+        </fieldset>
+        <fieldset>
+            <label for="diploma"><strong>Diploma mais recente:</strong></label>
+            <select name="diploma" id="diploma" required>
+                <option></option>
+                <option value="fund_1">Fundamental 1</option>
+                <option value="fund_2">Fundamental 2</option>
+                <option value="ens_med">Ensino Médio</option>
+                <option value="1_sem">1° semestre</option>
+                <option value="2_sem">2° semestre</option>
+                <option value="3_sem">3° semestre</option>
+                <option value="3_sem">4° semestre</option>
+                <option value="3_sem">5° semestre</option>
+                <option value="3_sem">6° semestre</option>
+                <option value="3_sem">7° semestre</option>
+                <option value="3_sem">8° semestre</option>
+                <option value="3_sem">9° semestre</option>
+                <option value="3_sem">10° semestre</option>
+                <option value="ens_sup">Ensino Superior</option>
+            </select>
+            <hr>
+            <label for="mais_caract"><strong>Mais características suas:</strong></label><br>
+            <textarea name="mais_caract" id="mais_caract" style="width: 23em; height: 10em;"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit" type="button">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
