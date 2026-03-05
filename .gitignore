@@ -1,0 +1,43 @@
+# =========================
+# Dependências
+# =========================
+node_modules/
+
+# =========================
+# Logs do npm
+# =========================
+npm-debug.log*
+*.log
+
+# =========================
+# Arquivos de ambiente
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Cache
+# =========================
+.eslintcache
+
+# =========================
+# Build (caso crie no futuro)
+# =========================
+dist/
+build/
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json

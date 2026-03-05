@@ -7,9 +7,7 @@ Projetos desenvolvidos durante a certificação **JavaScript Algorithms and Data
 ## Projetos
 
 - Total de projetos: **5**
-- Status:
-  - 2 projetos concluídos
-  - 3 projetos em desenvolvimento
+- Status: Concluídos
 
 ---
 
