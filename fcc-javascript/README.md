@@ -1,6 +1,6 @@
-# JavaScript Algorithms and Data Structures — FreeCodeCamp
+# JavaScript — FreeCodeCamp
 
-Projetos desenvolvidos durante a certificação **JavaScript Algorithms and Data Structures** do FreeCodeCamp.
+Projetos desenvolvidos durante a certificação **JavaScript** do FreeCodeCamp.
 
 ---
 
@@ -12,4 +12,4 @@ Projetos desenvolvidos durante a certificação **JavaScript Algorithms and Data
 ---
 
 ## Certificação: 
-- https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+- https://www.freecodecamp.org/certification/soniinho/javascript-v9
