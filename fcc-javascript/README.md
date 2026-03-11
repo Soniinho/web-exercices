@@ -11,5 +11,5 @@ Projetos desenvolvidos durante a certificação **JavaScript** do FreeCodeCamp.
 
 ---
 
-## Certificação: 
+## Certificado: 
 - https://www.freecodecamp.org/certification/soniinho/javascript-v9
