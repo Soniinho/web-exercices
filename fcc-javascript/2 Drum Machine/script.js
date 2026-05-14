@@ -1,12 +1,3 @@
-var b1 = document.getElementById("heater-1");
-var b2 = document.getElementById("heater-2");
-var b3 = document.getElementById("heater-3");
-var b4 = document.getElementById("heater-4");
-var b5 = document.getElementById("clap");
-var b6 = document.getElementById("open-hh");
-var b7 = document.getElementById("kick-n-Hat");
-var b8 = document.getElementById("kick");
-var b9 = document.getElementById("closed-HH");
 var display = document.getElementById("display");
 
 document.querySelectorAll(".drum-pad").forEach((btn) => {
